@@ -1,0 +1,49 @@
+
+
+PS C:\Users\Charan\Desktop\Node-Course> cd Notes-app
+PS C:\Users\Charan\Desktop\Node-Course\Notes-app> node app.js
+sdgfsdg
+PS C:\Users\Charan\Desktop\Node-Course\Notes-app> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (notes-app)
+version: (1.0.0)
+description:
+entry point: (app.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Charan\Desktop\Node-Course\Notes-app\package.json:
+
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+PS C:\Users\Charan\Desktop\Node-Course\Notes-app> npm i validator@13.0.0
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN notes-app@1.0.0 No description
+npm WARN notes-app@1.0.0 No repository field.
+
++ validator@13.0.0
+added 1 package from 2 contributors and audited 1 package in 1.19s
+found 0 vulnerabilities
